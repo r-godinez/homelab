@@ -1,0 +1,8 @@
+---
+
+# 2. Base system
+- name: Configure base system
+  hosts: all
+  become: true
+  roles:
+    - common
